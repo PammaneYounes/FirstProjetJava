@@ -12,6 +12,13 @@ public class bonjour {
 		System.out.println(car);
 		System.out.println(marcher);
 		System.out.println(mot);		
+		int var1=7,var2=2;
+		double resultat;
+		resultat = var1 / var2;
+		System.out.println(resultat);
+		// casting
+		resultat = (double)var1 / var2;
+		System.out.println(resultat);
 	}
 
 }
